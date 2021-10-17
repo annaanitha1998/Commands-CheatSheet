@@ -10,3 +10,4 @@
 | `mkdir [directory name]`    | To make a directory                     | `mkdir sample-dir`          | sample-dir will be created in your current directory, it can be checked with ls command |
 | `rmdir [directory name]`    | To remove a empty directory             | `rmdir sample-dir`          | sample-dir will get deleted                                                             |
 | `touch [file name]`         | To create a blank file                  | `touch index.html`          | index.html will be created in current repository                                        |
+| `cat [file name]`         | To display the raw content of the file                  | `cat index.html`          | file content will get displayed                                        |
