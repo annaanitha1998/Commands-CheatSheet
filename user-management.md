@@ -4,3 +4,4 @@
 | `userdel -r [username]`                 | To delete the user                   | `userdel -r myuser1`              | The user will get deleted                                               |
 | `groupadd [group-name]`                 | To add the group to the linux system | `groupadd commangrp`              | Group will get created                                                  |
 | `usermod -a -G [group-name] [username]` | To add the user into the group       | `usermod -a -G commangrp myuser2` | The user will get added into the group.                                 |
+| `du -h --max-depth=1` | To provide disk usage at max-depth at integer | `du -h --max-depth=1` | To provide disk depth level at max depth 1.|

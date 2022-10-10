@@ -11,3 +11,6 @@
 | `rmdir [directory name]`    | To remove a empty directory             | `rmdir sample-dir`          | sample-dir will get deleted                                                             |
 | `touch [file name]`         | To create a blank file                  | `touch index.html`          | index.html will be created in current repository                                        |
 | `cat [file name]`         | To display the raw content of the file                  | `cat index.html`          | file content will get displayed                                        |
+| `lsof i:<port_number>	`| To see whether the provided port is openly available or not.| `lsof i:9915`  | To see whether the 9915 port is available or not|
+| `kill -9 $(lsof -t -i tcp:<port_number>)	`| To kill tcp port.| `kill -9 $(lsof -t -i tcp:9915)`  | To kill TCP port 9915
+|
